@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-success" role="alert">
+                {{ 'index.success'|trans }}
+            </div>
+            <a href="{{ path('homepage') }}">
+                {{ 'index.back'|trans }}
+            </a>
+        </div>
+    </div>
+{% endblock %}
+

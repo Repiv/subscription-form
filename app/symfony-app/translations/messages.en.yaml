@@ -1,0 +1,29 @@
+index:
+    home: Home
+    title: Subsciption form
+    success: Your subsciption was succesfully saved
+    back: Back to subscription form
+    login:
+        username: Username
+        password: Password
+        sigin: Sign in
+admin:
+    title: Admin
+    actions: Actions
+    edit: Edit
+    edited: Data was successfully edited
+    delete: Delete
+    deleted: Subscription was successfully removed
+    not_deleted: There was a problem while trying to delete subscription
+    prev: Previous
+    next: Next
+    list:
+        title: Subscriptions list
+subscription:
+    date: Registration date
+    name: Name
+    email: Email
+    categories: Categories
+required: This field is required
+save_error: There was an error while trying to save the data. Please contact admin if error occurs again.
+user_not_found: User could not be found

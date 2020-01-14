@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ 'index.title'|trans }}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            {{ form(form) }}
+        </div>
+    </div>
+{% endblock %}
