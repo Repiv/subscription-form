@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 
 COPY app/symfony-app /usr/src/app
 
-RUN mkdir /usr/src/app/data && chmod 777 /usr/src/app/data
+RUN chmod 777 -R /usr/src/app/data
 
 RUN composer install
 
